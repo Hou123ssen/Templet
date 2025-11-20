@@ -428,3 +428,82 @@ a {
     border-radius: 10px;
     color: var(--bg-white);
 }
+/* ...............................,,,,,,,,,,,,,,,,,,/// */
+.A_B_inputs{
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+
+}
+.A_B_inputs input{
+    width: 498px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(245, 251, 255);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: #1a2b6d; 
+}
+ textarea{
+background-color: rgb(245, 251, 255);
+display: flex;
+flex-direction: row;
+border: none;
+outline: none;
+color: #1a2b6d; 
+}
+
+input::placeholder {
+  color: rgb(49, 69, 133); 
+  opacity: 1;
+  padding-left: 10px;
+}
+
+textarea::placeholder {
+  color: rgb(49, 69, 133);
+  padding: 14px;
+
+}
+
+.container_button{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    /* background-color: #1a2b6d; */
+    justify-content: center;
+}
+.container_button button{
+    border: none;
+    outline: none;
+    padding: 20px 30px;
+    border-radius: 70px;
+    background-color: rgb(255, 56, 69);
+    font-weight: bold;
+    color: white;
+}
+.p_h1 {
+     display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+
+}
+.p_h1 p{
+        font-family: "Arial", sans-serif;
+        font-size: 16px;
+         color: #ff0000;
+}
+.p_h1 p ,h1{
+    padding-left: 10px;
+}
+.p_h1 h1{
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #1a2b6d; 
+  font-size: 35px;
+ line-height: 0.1;
+}
+/* .akhir_section{
+    height: 70vw;
+} */
