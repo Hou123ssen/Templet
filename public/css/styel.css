@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1128px;
+    margin: auto;
+}
+body {
+  font-family: var(--font-primary);
+}
+
+:root {
+  /* Primary Brand Colors */
+  --primary-blue: #1A2B6D;     
+  --primary-light-blue: #4C67FF; 
+
+  /* Accent Colors */
+  --accent-red: #FF4D61;        
+  --accent-yellow: #FFC100;      
+  --accent-green: #3CCB7F;       
+
+  /* Neutral Colors */
+  --text-dark: #1D2A54;          
+  --text-gray: #6A7A90;          
+  --text-light-gray: #A0AFC2;
+
+  /* Background Colors */
+  --bg-white: #FFFFFF;
+  --bg-light: #F8FCFF;          
+  --bg-footer: #22356B;
+
+  /* Card Colors */
+  --card-bg: #FFFFFF;
+  --card-border: #E6ECF5;
+
+  /* Form Colors */
+  --input-bg: #F4F8FF;
+  --input-border: #D8E2F1;
+  --font-primary: 'Poppins', 'Inter', 'Nunito', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h1{
+    border-bottom: 5px solid var(--accent-red)  ;
+    color:var(--bg-footer);
+}
+.links a {
+    text-decoration: none;
+
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+.btnNav{
+ border: none;
+ padding: 7px;
+ color: var(--accent-red);
+}
