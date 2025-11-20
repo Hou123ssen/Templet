@@ -372,6 +372,7 @@ textarea::placeholder {
 
 /*  */
 footer {
+    margin-top: 20px;
     width: 100%;
     height: 22vw;
     background-color: #1a2b6d;
