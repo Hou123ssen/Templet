@@ -72,7 +72,70 @@ body {
     padding: 7px;
     color: var(--accent-red);
 }
+/* styel section 2 */
 
+.outbtn{
+    border: none;
+    background-color: var(--accent-red);
+    color: var(--bg-white);
+    padding: 15px;
+
+    width: 150px;
+    border-radius: 20px;
+}
+.twoBtn{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.content h1 {
+    color: var(--primary-blue);
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+   
+}
+
+.section3{
+  
+    margin-top: 50px;
+    height: 70vh;
+    
+}
+.content{
+    
+    padding-top: 40px;
+}
+.section{
+    
+    z-index: 999;
+    position: relative;
+}
+.content_img{
+    display: flex;
+    align-items: center;
+    
+}
+.image img{
+    width: 700px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+
+}
+.content p {
+    width: 210px;
+    color: var(--text-gray);
+}
+.outbtn1{
+    font-size: 20px;
+    color: var(--primary-blue);
+    border: none;
+    background-color: var(--bg-white);
+}
 /* css hamza */
 
 .wst_page h1 {
