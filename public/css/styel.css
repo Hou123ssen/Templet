@@ -515,7 +515,7 @@ textarea::placeholder {
         display: none;
     }
     .section6{
-        display: none;
+        display: block;
     }
     .p_h1{
         /* background-color: #3CCB7F; */
@@ -526,7 +526,6 @@ textarea::placeholder {
     .p_h1 h1{   
         font-size: 45px;
         width: max-content;
-        background-color: #3CCB7F;
     }
 
     /* container_inputs */
@@ -578,6 +577,9 @@ footer h1 {
     Helvetica, sans-serif;
     font-size: 30px;
     font-weight: bold;
+}
+.section_secend{
+    display: block;
 }
 }
 
